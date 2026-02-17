@@ -1,4 +1,4 @@
-<img width="1161" height="658" alt="image" src="https://github.com/user-attachments/assets/1ef53d70-b479-45d8-af98-7d731e65dfbb" /><img width="1161" height="658" alt="image" src="https://github.com/user-attachments/assets/95c1ebae-a9bc-4bc4-9f09-d6d1d7446fdd" />📊 Global Sales Performance Dashboard | Power BI
+<img width="1161" height="658" alt="image" src="https://github.com/user-attachments/assets/1ef53d70-b479-45d8-af98-7d731e65dfbb" />📊 Global Sales Performance Dashboard | Power BI
 📌 Project Overview
 This project presents an end-to-end Sales Performance Dashboard built using Power BI to analyze business performance across time, customers, products, regions, and shipping modes.
 The solution uses a star schema data model, Power Query transformations, and DAX measures to deliver interactive insights for decision-making.
