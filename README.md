@@ -39,6 +39,7 @@ One-to-Many relationships from dimensions → Fact table
 Single direction filtering
 Dedicated Date table (marked as Date Table)
 Optimized for performance and accurate aggregations
+
 ⚙ Data Transformation (Power Query)
 Removed unnecessary columns
 Cleaned and standardized text fields
@@ -50,12 +51,18 @@ Disabled load for staging query (performance optimization)
 🧮 DAX Measures
 Core Measures
 Total Sales = SUM(Fact_Sales[Sales])
+
 Total Profit = SUM(Fact_Sales[Profit])
+
 Total Orders = DISTINCTCOUNT(Fact_Sales[Order ID])
+
 Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
 Time Intelligence
 Sales YTD = TOTALYTD([Total Sales], Dim_Date[Dim_Date])
+
 Profit YTD = TOTALYTD([Total Profit], Dim_Date[Dim_Date])
+
 YoY Growth =
 DIVIDE(
     [Total Sales] -
